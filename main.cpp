@@ -4,10 +4,11 @@ using namespace std;
 int main() {
     char a;
     cin>>a;
-    int ris= verifica (a);
+    int ris= verifica(a);
     if(ris){
-        cout<< convert(a)<<endl;
-    }else{
+        cout<< convert(a) <<endl;
+    }
+    else{
         cout<<"errore";
     }
 
